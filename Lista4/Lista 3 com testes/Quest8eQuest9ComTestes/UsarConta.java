@@ -3,18 +3,18 @@ public class UsarConta {
 	
 	public static void main(String[] args) {
 		ContaBancaria c1 = new ContaBancaria("Carlos", 12345, "Banco", 7000.0, "07/08/2005");
-        //AlteraÁ„o de dados da conta
-        c1.saca(300);
-        c1.deposita(1500);
-        c1.saca(200);
-        //RecuperaÁ„o de dados da conta com o rendimento
-        System.out.println(c1.recuperarDadosParaImpress„o());
-        
-        //Nova alteraÁ„o de dados da conta
-        c1.saca(1000);
-        c1.deposita(700);
-        //RecuperaÁ„o de dados da conta com o rendimento
-        System.out.println(c1.recuperarDadosParaImpress„o());
+		//Altera√ß√£o de dados da conta
+		c1.saca(300);
+		c1.deposita(1500);
+		c1.saca(200);
+		//Recupera√ß√£o de dados da conta com o rendimento
+		System.out.println(c1.recuperarDadosParaImpress√£o());
+
+		//Nova altera√ß√£o de dados da conta
+		c1.saca(1000);
+		c1.deposita(700);
+		//Recupera√ß√£o de dados da conta com o rendimento
+		System.out.println(c1.recuperarDadosParaImpress√£o());
 	}
 	
 }
